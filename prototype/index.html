@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#BB8744">
+  <meta name="description" content="Prototipo visual de Just2Sale. Demostración local, sin servidor ni guardado real.">
+  <title>Just2Sale — prototipo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23BB8744'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-size='13' font-family='sans-serif' fill='%232C261F' font-weight='700'%3EJ2%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <div class="app">
+    <header id="chrome" class="topbar"></header>
+    <div class="shell">
+      <nav id="sidenav" class="sidebar" aria-label="Módulos"></nav>
+      <main id="main" class="content" tabindex="-1"></main>
+    </div>
+    <nav id="bottomnav" class="bottomnav" aria-label="Módulos principales"></nav>
+    <div id="overlays"></div>
+    <div id="toasts" class="toast-wrap"></div>
+    <div id="live" class="sr-only" aria-live="polite"></div>
+  </div>
+  <noscript>
+    <p>Just2Sale necesita JavaScript para esta demostración. Ábrelo en un navegador con JavaScript activo. No usa red.</p>
+  </noscript>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
